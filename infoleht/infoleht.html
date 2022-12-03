@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <script src="infoleht.js"></script>
 </head>
@@ -8,12 +9,148 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+    <!--href tuleks korda teha nuppudeks mis linkivad päriselt uuele lehele--> 
     <div class="topnav" id="myTopnav">
       <a href="#Kodu">Kodu</a>
       <a href="#Teenused" class="active">Teenused</a>
       <div class="topnav-right">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
         <a href="#Kontakt">Kontakt</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </div>
       </a>
     </div>
+
+    <body>
+        <main>
+            <h1> Õpiabi</h1>
+            <section class="container">
+                <div id="col-1">
+                  <h1>Põhikool</h1>
+                  <ul class="accordion">
+                    <li>
+                        <input type="radio" name="'accordion" id="first">
+                        <label for="first">
+                            Matemaatika
+                        </label>
+                        <div class="content">
+                            <p>Õpiabi matemaatikas 4.-10. ning 11.-12.klass kitsas.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="'accordion" id="second">
+                        <label for="second">
+                            Füüsika
+                        </label>
+                        <div class="content">
+                        <p>Õpiabi  füüsikas 8.-11.klass.</p>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <input type="radio" name="'accordion" id="three">
+                        <label for="three">
+                            Matemaatika riigieksam
+                        </label>
+                        <div class="content">
+                            <p>Ettevalmistus põhikooli lõpueksamiks matemaatika.</p>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <input type="radio" name="'accordion" id="four">
+                        <label for="four">
+                            Ettevalmistus sisseastumiskatseteks
+                        </label>
+                        <div class="content">
+                            <p>Ettevalmistus 7. ja 10.klassi sisseastumiskatseteks matemaatikas ja füüsikas.</p>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <input type="radio" name="'accordion" id="five">
+                        <label for="five">
+                            Pikendatud õppetöö abi
+                        </label>
+                        <div class="content">
+                            <p>Abi pikendatud õppetöö ("suvetöö") sooritamisel matemaatikas ja füüsikas (üleminekul järgmisesse klassi).</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="'accordion" id="six">
+                        <label for="six">
+                            Lisainfo
+                        </label>
+                        <div class="content">
+                            <p>Kontakttunnid toimuvad Meriväljal, tunni pikkus a' 1,5h (90min), maksumus 50€.</p>
+                            <p>Gümnaasiumiõpilasele tunni maksumus 55€.</p>
+                        </div>
+                    </li>
+
+<!-- SIIT HAKKAB PAREM POOL SPLITIST-->
+
+
+
+                </ul>
+                </div>
+                <div id="col-2">
+                  <h1>Gümnaasium</h1>
+                  <ul class="accordion">
+                    <li>
+                        <input type="radio" name="'accordion" id="esimene">
+                        <label for="esimene">
+                            Matemaatika
+                        </label>
+                        <div class="content">
+                            <p>Õpiabi matemaatikas.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="'accordion" id="teine">
+                        <label for="teine">
+                            Üleminekueksam
+                        </label>
+                        <div class="content">
+                            <p>Ettevalmistus matemaatika üleminekueksamiks.</p>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <input type="radio" name="'accordion" id="kolmas">
+                        <label for="kolmas">
+                            Riigieksam
+                        </label>
+                        <div class="content">
+                            <p>Ettevalmistus matemaatika riigieksamiks.</p>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <input type="radio" name="'accordion" id="neljas">
+                        <label for="neljas">
+                            Ettevalmistus kõrgkooliks
+                        </label>
+                        <div class="content">
+                            <p>Ettevalmistus kõrgkooli sisseastumistestiks matemaatikas.</p>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <input type="radio" name="'accordion" id="viies">
+                        <label for="viies">
+                            Lisainfo
+                        </label>
+                        <div class="content">
+                            <p>Kontakttunnid toimuvad Meriväljal, tunni pikkus a' 1,5h (90min.), maksumus 55€.</p>
+                        </div>
+                    </li>
+        
+                </ul>
+                </div>
+                </section>
+            
+        </main>
+    </body>
+</body>
+</html>
