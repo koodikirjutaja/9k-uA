@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+@font-face {
+    font-family: "oswald";
+    src: url(Fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url(Fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: meieFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  }
+
+  .topnav {
+    margin: -15px;
+    background-color: #27153e;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "oswald", sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-decoration-color: #5140FF;
+    font-size: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+
+  /* Split 2 columns */
+  .container {
+    display: flex;
+  }
+  
+  #col-1 {
+    flex: 1;
+  }
+  
+  #col-2 {
+    flex: 1;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #5140FF;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    text-decoration: underline;
+    text-decoration-color: #5140FF;
+    opacity: 1;
+    color: white;
+  }
