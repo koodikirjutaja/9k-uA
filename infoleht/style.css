@@ -35,11 +35,10 @@
     padding: 20px 20px;
     text-decoration: none;
     text-decoration-color: #5140FF;
-    font-size: 25px;
+    font-size: 18px;
     opacity: 0.6;
     transition: 0.3s;
   }
-
 
   /* Split 2 columns */
   .container {
@@ -87,10 +86,16 @@ body{
     background-color: #ffffff;
 }
 
-main h1{
+h1{
     text-align: center;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
 }
 
 .accordion{
