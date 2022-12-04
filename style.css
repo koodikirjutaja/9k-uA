@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+@font-face {
+    font-family: "oswald";
+    src: url(Fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url(Fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: meieFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    margin: -15px;
+    background-color: #27153e;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "oswald", sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-decoration-color: #5140FF;
+    font-size: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+
+  /* Split 2 columns */
+  .container {
+    display: flex;
+  }
+  
+  #col-1 {
+    flex: 1;
+  }
+  
+  #col-2 {
+    flex: 1;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #5140FF;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    text-decoration: underline;
+    text-decoration-color: #5140FF;
+    opacity: 1;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav-right {
+    float: right;
+    margin-right: 20px;
+  }
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+button{
+  background-color: #5140FF;
+  border: none;
+  color:#ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+
+}
+  
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
