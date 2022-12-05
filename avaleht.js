@@ -1,5 +1,7 @@
 /* sandori kirjutatud on myFunction, Mihkli kirjutatud on nuppude värvivahetused */
 
+
+/*loob responsive klassi või topnav klassi vastavalt sellele kas element on topnav klassiga või responsive klassiga  */
 function myFunction() {
   var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {

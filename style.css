@@ -42,20 +42,6 @@
     opacity: 0.6;
     transition: 0.3s;
   }
-
-
-  /* Split 2 columns */
-  .container {
-    display: flex;
-  }
-  
-  #col-1 {
-    flex: 1;
-  }
-  
-  #col-2 {
-    flex: 1;
-  }
   
   /* Change the color of links on hover */
   .topnav a:hover {
@@ -116,6 +102,8 @@
       text-align: left;
     }
   }
+
+
 /* loon tekstikastid ja nupud, Mihkli tehtud */
 .tekstikast{
   position: absolute;
@@ -158,6 +146,8 @@
   -webkit-text-fill-color: white;
   font-family: 'open-sans';
 }
+
+/* loon nuppudele üks ja kaks ühtlase kujunduse*/
 
 .nupp2 .tühilink {
 text-decoration: none; 
