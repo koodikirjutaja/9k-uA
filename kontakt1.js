@@ -1,4 +1,4 @@
-
+/* võimaldab button-iga kopeerida etteantud teksti*/
 let text = document.getElementById("text1").innerHTML;
   
 const copyContent = async () => {
