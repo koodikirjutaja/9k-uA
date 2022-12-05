@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avaleht</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="avaleht_style.css">
+  <script src="avaleht.js"></script>
+</head>
+<body>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--href tuleks korda teha nuppudeks mis linkivad päriselt uuele lehele--> 
+    <div class="topnav" id="myTopnav">
+      <a href="#Kodu" class="active">Kodu</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      <a href="#Teenused">Teenused</a>
+      <div class="topnav-right">
+        <a href="#Kontakt">Kontakt</a>
+        </div>
+    </div>
+
+
+  <main>
+    <h1> Javar OÜ õpiabi teenused</h1>
+  </main>
+    <div class="tekstikast">
+      <p>Javar OÜ pakub õpiabi teenust põhikooli- ja gümnaasiumiõpilastele matemaatikas ja füüsikas. 
+        Õpetajateks on aastakümnete pikkuse õpetamiskogemusega Aivar ja Kaja Jakobson.
+        Tunnid toimuvad Tallinnas Meriväljal ning üks tund kestab 90 minutit, ehk 1,5 tundi.  </p>
+    </div>
+    <div class="nupp1" id = 'hiir1' onmouseenter="värvimuutus1()" onmouseleave="värvimuutus1tagasi()">
+      <a href="#Kontakt" class ='tühilink'> Rohkem infot </a>
+    </div>
+    <div class="nupp2"  id = 'hiir2' onmouseenter="värvimuutus2()" onmouseleave="värvimuutus2tagasi()">
+      <a href="#Kontakt" class = 'tühilink'>Kontakt</a>
+    </div>
+</body>
+</html>
